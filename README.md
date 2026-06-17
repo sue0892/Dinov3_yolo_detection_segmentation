@@ -2,7 +2,7 @@
 
 Customize YOLO with a DINOv3 backbone for improved object detection and semantic segmentation.
 
-This repository integrates a DINOv3 visual backbone into a YOLO-style detection/segmentation framework to combine DINOv3's strong representation learning with YOLO's efficient detection head. It supports training, evaluation, and inference for object detection and per-instance/semantic segmentation on standard datasets (COCO, YOLO format, or custom datasets).
+This repository integrates a DINOv3 visual backbone into a YOLO-style detection/segmentation framework to combine DINOv3's strong representation learning with YOLO's efficient detection head. It supports training, evaluation, and inference for object detection and per-instance/semantic segmentation on standard datasets (YOLO format, or custom datasets).
 
 Table of contents
 - [Features](#features)
@@ -25,7 +25,7 @@ Table of contents
 - Support for object detection and semantic/instance segmentation heads.
 - Training, evaluation, and inference scripts with configuration-driven experiments.
 - Support for single-GPU and multi-GPU training (DistributedDataParallel).
-- Dataset helpers for COCO and YOLO-style datasets.
+- Dataset helpers for YOLO-style datasets.
 
 ## Requirements
 - Python 3.8+
