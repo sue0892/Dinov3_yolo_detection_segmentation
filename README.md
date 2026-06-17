@@ -24,17 +24,18 @@ Table of contents
 - Dataset helpers for YOLO-style datasets.
 
 ## Requirements
+```bash
 torch==2.5.1+cu121
 python==3.12.9 
 ultralytics==8.3.174
+```
 
 ## Quick install
-
 ```bash
 conda create -n dino_yolo python=3.12.9
 conda activate dino_yolo
 pip install -r requirements.txt
-````
+```
 
 Clone the DINOv3 repository:
 ```bash
@@ -47,6 +48,7 @@ Download [DINOv3](https://huggingface.co/MVRL/dinov3_vitl16_sat/blob/main/dinov3
 ```
 
 ## Repository layout
+```bash
 │  Dinov3_yolo_detection.yaml
 │  Dinov3_yolo_structure.py
 │  Inference_satellite_img.py
@@ -68,6 +70,7 @@ Download [DINOv3](https://huggingface.co/MVRL/dinov3_vitl16_sat/blob/main/dinov3
 │
 └─dinov3_pretrained_weight
         download_dinov3_pretrained_weight.txt
+```
 
 ## Datasets and formatting
 This repository supports:
