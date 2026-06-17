@@ -1,11 +1,3 @@
-'''
-Script for training：
-python Train_Dinov3_yolo_structure.py \
-  --cfg Dinov3_yolo_detection.yaml \
-  --data ./data/data.yaml \
-  --dino_weights ./weight/dinov3_vitl16_pretrain_sat493m-eadcf0ff.pth \
-  --device 0
-'''
 import torch
 from ultralytics import YOLO
 import argparse
