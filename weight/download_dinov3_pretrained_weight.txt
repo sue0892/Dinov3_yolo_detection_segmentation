@@ -1,0 +1,1 @@
+https://huggingface.co/MVRL/dinov3_vitl16_sat/blob/main/dinov3_vitl16_pretrain_sat493m-eadcf0ff.pth

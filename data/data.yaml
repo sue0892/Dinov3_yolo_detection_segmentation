@@ -1,0 +1,11 @@
+train: '...data/images/train'
+val: '...data/images/val'
+names:
+  0: background
+  1: water
+  2: grassland 
+  3: building
+  4: woodland
+  5: road
+  6: bridge 
+  7: bareland
